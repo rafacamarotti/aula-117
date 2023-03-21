@@ -6,7 +6,7 @@ function setup(){
     synth = window.speechSynthesis;
     classfier = ml5.imageClassifier('DoodleNet');
 }
-function clearcanvas(){
+function clearCanvas(){
     background("white");
 }
 function draw(){
